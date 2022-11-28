@@ -4,8 +4,8 @@ body {
   min-height: 100vh;
 }
 
-.page {
-  Width: 1150px;
+.page , footer {
+  Width: 1110px;
   margin: 0 auto;
 }
 
@@ -13,12 +13,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px auto 80px ;
+  margin-bottom: 90px;
+  padding-top: 30px;
 }
 
 ul {
   display: flex;
-  gap: 48px;
+  gap: 45px;
 }
 
 li {
@@ -41,12 +42,12 @@ li a:hover {
 
 main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 section {
   text-align: center;
-  margin-left: 45px;
+  margin-left: 100px;
 }
 
 section h1 {
@@ -78,11 +79,10 @@ span {
 
 footer {
   text-align: center;
-  margin: 120px auto 0px;
   width: 568px;
-  height: 55px;
   font-family: 'JetBrains Mono', monospace;
   color: #FFFFFF;
+  margin-top: 150px;
 }
 
 footer a span:hover {
@@ -95,12 +95,13 @@ footer a span:hover {
   border: 1px solid #00BFA6;
 }
 
-
 #lock {
   position: fixed;
-  bottom: 0;
-  right: 5;
+  bottom: 20px;
+  left: 20px;
 }
+
+
 
 
 
